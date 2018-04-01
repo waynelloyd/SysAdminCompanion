@@ -1,18 +1,16 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectView>ShowAllFiles</ProjectView>
-    <PublishUrlHistory>publish\|http://cid-1dd43cc22b052d75.skydrive.live.com/browse.aspx/.Public/MyApplications/|C:\Users\Wayne\Documents\Visual Studio 2008\Projects\SysAdminCompanion\</PublishUrlHistory>
-    <InstallUrlHistory>
-    </InstallUrlHistory>
+    <PublishUrlHistory>ftp://upload.ntlworld.com/Applications/Release/SysAdminCompanion/|publish/|Publish/|http://cid-1dd43cc22b052d75.skydrive.live.com/browse.aspx/.Public/MyApplications/SysAdminCompanion/|http://homepage.ntlworld.com/Applications/Release/SysAdminCompanion/</PublishUrlHistory>
+    <InstallUrlHistory>http://homepage.ntlworld.com/waynell0yd/Applications/Release/SysAdminCompanion/|http://homepage.ntlworld.com/waynell0yd/|http://hopepage.ntlworld.com/waynell0yd/Applications/Release/SysAdminCompanion/|http://cid-1dd43cc22b052d75.skydrive.live.com/browse.aspx/.Public/MyApplications/SysAdminCompanion/|http://homepage.ntlworld.com/Applications/Release/SysAdminCompanion/</InstallUrlHistory>
     <SupportUrlHistory>
     </SupportUrlHistory>
-    <UpdateUrlHistory>
-    </UpdateUrlHistory>
+    <UpdateUrlHistory>http://hompage.ntlworld.com/waynell0yd/Applications/Release/SysAdminCompanion/</UpdateUrlHistory>
     <BootstrapperUrlHistory>
     </BootstrapperUrlHistory>
     <ErrorReportUrlHistory>
     </ErrorReportUrlHistory>
     <FallbackCulture>en-US</FallbackCulture>
-    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
   </PropertyGroup>
 </Project>

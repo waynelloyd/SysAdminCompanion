@@ -4,15 +4,16 @@
     <ROW Property="AI_MINDOTNETVERSION" MultiBuildValue="DefaultBuild:3.5" ValueLocId="-"/>
     <ROW Property="AI_MINRAM" MultiBuildValue="DefaultBuild:96" ValueLocId="-"/>
     <ROW Property="ALLUSERS" Value="2"/>
-    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPCOMMENTS" Value="[|ProductName]" ValueLocId="*"/>
     <ROW Property="ARPPRODUCTICON" Value="main_1.exe" Type="8"/>
+    <ROW Property="ARPURLUPDATEINFO" Value="http://homepage.ntlworld.com/waynell0yd/Applications/Release/SysAdminCompanion/publish.htm"/>
     <ROW Property="BannerBitmap" MultiBuildValue="DefaultBuild:default_banner.bmp" Type="1"/>
     <ROW Property="DialogBitmap" MultiBuildValue="DefaultBuild:default_dialog.bmp" Type="1"/>
     <ROW Property="Manufacturer" Value="Wayne Lloyd" ValueLocId="*"/>
-    <ROW Property="ProductCode" Value="1033:{DD5035B6-8B07-4642-8970-96B4E3EE46C4} " Type="16"/>
+    <ROW Property="ProductCode" Value="1033:{B2DD8D0B-ABC1-4364-9E0F-96B6596D5204} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1033"/>
     <ROW Property="ProductName" Value="SysAdmin Companion" ValueLocId="*"/>
-    <ROW Property="ProductVersion" Value="1.3.0.0"/>
+    <ROW Property="ProductVersion" Value="1.3.1.0"/>
     <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
     <ROW Property="UpgradeCode" Value="{D22B6A66-2EC8-449F-980D-B8E0F9713706}"/>
     <ROW Property="WIMinVersion" MultiBuildValue="DefaultBuild:3.0" ValueLocId="-"/>
