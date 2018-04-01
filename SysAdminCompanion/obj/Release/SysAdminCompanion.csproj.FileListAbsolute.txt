@@ -1,0 +1,26 @@
+C:\Users\Wayne\Documents\Visual Studio 2008\Projects\SysAdminCompanion\SysAdminCompanion\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Wayne\Documents\Visual Studio 2008\Projects\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.Form1.resources
+C:\Users\Wayne\Documents\Visual Studio 2008\Projects\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.Properties.Resources.resources
+C:\Users\Wayne\Documents\Visual Studio 2008\Projects\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.csproj.GenerateResource.Cache
+C:\Users\Wayne\Documents\Visual Studio 2008\Projects\SysAdminCompanion\SysAdminCompanion\bin\Release\SysAdminCompanion.exe
+C:\Users\Wayne\Documents\Visual Studio 2008\Projects\SysAdminCompanion\SysAdminCompanion\bin\Release\SysAdminCompanion.pdb
+C:\Users\Wayne\Documents\Visual Studio 2008\Projects\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.exe
+C:\Users\Wayne\Documents\Visual Studio 2008\Projects\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.pdb
+C:\Users\Wayne\Documents\Visual Studio 2008\Projects\SysAdminCompanion\SysAdminCompanion\bin\Release\SysAdminCompanion.exe.config
+C:\Users\Wayne\Documents\Visual Studio 2008\Projects\SysAdminCompanion\SysAdminCompanion\bin\Release\SysAdminCompanion.exe.manifest
+C:\Users\Wayne\Documents\Visual Studio 2008\Projects\SysAdminCompanion\SysAdminCompanion\bin\Release\SysAdminCompanion.application
+C:\Users\Wayne\Documents\Visual Studio 2008\Projects\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.exe.manifest
+C:\Users\Wayne\Documents\Visual Studio 2008\Projects\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.application
+C:\Users\Wayne\Downloads\SysAdminCompanion\SysAdminCompanion\SysAdminCompanion\bin\Release\SysAdminCompanion.exe.config
+C:\Users\Wayne\Downloads\SysAdminCompanion\SysAdminCompanion\SysAdminCompanion\bin\Release\SysAdminCompanion.exe.manifest
+C:\Users\Wayne\Downloads\SysAdminCompanion\SysAdminCompanion\SysAdminCompanion\bin\Release\SysAdminCompanion.application
+C:\Users\Wayne\Downloads\SysAdminCompanion\SysAdminCompanion\SysAdminCompanion\bin\Release\SysAdminCompanion.exe
+C:\Users\Wayne\Downloads\SysAdminCompanion\SysAdminCompanion\SysAdminCompanion\bin\Release\SysAdminCompanion.pdb
+C:\Users\Wayne\Downloads\SysAdminCompanion\SysAdminCompanion\SysAdminCompanion\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Wayne\Downloads\SysAdminCompanion\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.Form1.resources
+C:\Users\Wayne\Downloads\SysAdminCompanion\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.Properties.Resources.resources
+C:\Users\Wayne\Downloads\SysAdminCompanion\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.csproj.GenerateResource.Cache
+C:\Users\Wayne\Downloads\SysAdminCompanion\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.exe.manifest
+C:\Users\Wayne\Downloads\SysAdminCompanion\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.application
+C:\Users\Wayne\Downloads\SysAdminCompanion\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.exe
+C:\Users\Wayne\Downloads\SysAdminCompanion\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.pdb
