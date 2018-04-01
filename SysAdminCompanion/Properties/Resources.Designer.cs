@@ -143,5 +143,12 @@ namespace SysAdminCompanion.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        internal static System.Drawing.Bitmap uvnc {
+            get {
+                object obj = ResourceManager.GetObject("uvnc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

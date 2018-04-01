@@ -22,5 +22,42 @@ namespace SysAdminCompanion.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SettingsManageabilityAttribute(global::System.Configuration.SettingsManageability.Roaming)]
+        public global::System.Collections.Specialized.StringCollection ComboItems {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["ComboItems"]));
+            }
+            set {
+                this["ComboItems"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Program Files\\UltraVNC")]
+        [global::System.Configuration.SettingsManageabilityAttribute(global::System.Configuration.SettingsManageability.Roaming)]
+        public string vncviewerPath {
+            get {
+                return ((string)(this["vncviewerPath"]));
+            }
+            set {
+                this["vncviewerPath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("vncviewer.exe")]
+        public string vncviewer {
+            get {
+                return ((string)(this["vncviewer"]));
+            }
+            set {
+                this["vncviewer"] = value;
+            }
+        }
     }
 }

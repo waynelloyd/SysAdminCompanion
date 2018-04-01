@@ -1,7 +1,7 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectView>ShowAllFiles</ProjectView>
-    <PublishUrlHistory>publish\</PublishUrlHistory>
+    <PublishUrlHistory>publish\|http://cid-1dd43cc22b052d75.skydrive.live.com/browse.aspx/.Public/MyApplications/|C:\Users\Wayne\Documents\Visual Studio 2008\Projects\SysAdminCompanion\</PublishUrlHistory>
     <InstallUrlHistory>
     </InstallUrlHistory>
     <SupportUrlHistory>
