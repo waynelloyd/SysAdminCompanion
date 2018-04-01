@@ -11,3 +11,17 @@ C:\Users\Wayne\Documents\Visual Studio 2008\Projects\SysAdminCompanion\SysAdminC
 C:\Users\Wayne\Documents\Visual Studio 2008\Projects\SysAdminCompanion\SysAdminCompanion\obj\Debug\SysAdminCompanion.application
 C:\Users\Wayne\Documents\Visual Studio 2008\Projects\SysAdminCompanion\SysAdminCompanion\obj\Debug\SysAdminCompanion.exe
 C:\Users\Wayne\Documents\Visual Studio 2008\Projects\SysAdminCompanion\SysAdminCompanion\obj\Debug\SysAdminCompanion.pdb
+C:\Users\Wayne\Documents\SharpDevelop Projects\SysAdminCompanion\SysAdminCompanion\bin\Debug\SysAdminCompanion.exe.config
+C:\Users\Wayne\Documents\SharpDevelop Projects\SysAdminCompanion\SysAdminCompanion\bin\Debug\SysAdminCompanion.exe.manifest
+C:\Users\Wayne\Documents\SharpDevelop Projects\SysAdminCompanion\SysAdminCompanion\bin\Debug\SysAdminCompanion.application
+C:\Users\Wayne\Documents\SharpDevelop Projects\SysAdminCompanion\SysAdminCompanion\bin\Debug\SysAdminCompanion.exe
+C:\Users\Wayne\Documents\SharpDevelop Projects\SysAdminCompanion\SysAdminCompanion\bin\Debug\SysAdminCompanion.pdb
+C:\Users\Wayne\Documents\SharpDevelop Projects\SysAdminCompanion\SysAdminCompanion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Wayne\Documents\SharpDevelop Projects\SysAdminCompanion\SysAdminCompanion\obj\Debug\SysAdminCompanion.Form1.resources
+C:\Users\Wayne\Documents\SharpDevelop Projects\SysAdminCompanion\SysAdminCompanion\obj\Debug\SysAdminCompanion.Properties.Resources.resources
+C:\Users\Wayne\Documents\SharpDevelop Projects\SysAdminCompanion\SysAdminCompanion\obj\Debug\SysAdminCompanion.csproj.GenerateResource.Cache
+C:\Users\Wayne\Documents\SharpDevelop Projects\SysAdminCompanion\SysAdminCompanion\obj\Debug\SysAdminCompanion.exe.manifest
+C:\Users\Wayne\Documents\SharpDevelop Projects\SysAdminCompanion\SysAdminCompanion\obj\Debug\SysAdminCompanion.application
+C:\Users\Wayne\Documents\SharpDevelop Projects\SysAdminCompanion\SysAdminCompanion\obj\Debug\SysAdminCompanion.exe
+C:\Users\Wayne\Documents\SharpDevelop Projects\SysAdminCompanion\SysAdminCompanion\obj\Debug\SysAdminCompanion.pdb
+C:\Users\Wayne\Documents\SharpDevelop Projects\SysAdminCompanion\SysAdminCompanion\bin\Debug\SysAdminCompanion.xml

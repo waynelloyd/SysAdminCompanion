@@ -200,7 +200,10 @@ using System.Windows.Forms;
 
         private void ComboBox1_MouseDown(object sender, MouseEventArgs e)
         {
-            this.comboBox1.Text = string.Empty;
+            if (this.comboBox1.Text == "Example: computer.fabrikam.com")
+            {
+                this.comboBox1.Text = string.Empty;
+            }
         }
 
         private void ComboBox1_KeyPress(object sender, KeyPressEventArgs e)
@@ -229,7 +232,10 @@ using System.Windows.Forms;
 
         private void ComboBox2_MouseDown(object sender, MouseEventArgs e)
         {
-            this.comboBox2.Text = string.Empty;
+            if (this.comboBox2.Text == "Example: computer.fabrikam.com")
+            {
+                this.comboBox2.Text = string.Empty;
+            }
         }
 
         private void ComboBox2_KeyPress(object sender, KeyPressEventArgs e)
