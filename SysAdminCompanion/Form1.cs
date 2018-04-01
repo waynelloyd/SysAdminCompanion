@@ -117,14 +117,19 @@ using System.Windows.Forms;
             {
                 this.Text = String.Format(this.AssemblyTitle + " - Tools");
                 this.AcceptButton = this.button1;
-                this.comboBox1.Text = this.comboBox2.Text;
+                this.comboBox1.Text = this.comboBox2.Text = this.comboBox4.Text;
+                //this.comboBox1.Text = this.comboBox4.Text;
                 if (this.comboBox1.Text == "Example: computer.fabrikam.com")
                 {
+                    this.comboBox2.Text = "Example: computer.fabrikam.com";
+                    this.comboBox4.Text = "Example: computer.fabrikam.com";
                     this.label5.Text = "The computer name field is blank. Enter a remote computer name or IP address.";
                     this.comboBox1.ForeColor = Color.Gray;
                 }
                 else if (this.comboBox1.Text.Length == 0)
                 {
+                    this.comboBox2.Text = String.Empty;
+                    this.comboBox4.Text = String.Empty;
                     this.label5.Text = "The computer name field is blank. Enter a remote computer name or IP address.";
                     this.comboBox2.ForeColor = Color.Gray;
                 }
@@ -132,7 +137,12 @@ using System.Windows.Forms;
                 {
                     this.label5.Text = string.Empty;
                     this.comboBox1.ForeColor = Color.Black;
-                }         
+                }
+                else if (this.comboBox1.Text == this.comboBox4.Text)
+                {
+                    this.label5.Text = string.Empty;
+                    this.comboBox1.ForeColor = Color.Black;
+                }
             }
             
             if (this.tabControl1.SelectedTab == this.tabPage2)
@@ -143,18 +153,28 @@ using System.Windows.Forms;
                 this.radioButton11.Checked = true;
                 this.radioButton11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
                 this.button3.Text = "Connect";
-                this.comboBox2.Text = this.comboBox1.Text;
+                this.comboBox2.Text = this.comboBox1.Text = this.comboBox4.Text;
+                //this.comboBox2.Text = this.comboBox4.Text;
                 if (this.comboBox2.Text == "Example: computer.fabrikam.com")
                 {
+                    this.comboBox1.Text = "Example: computer.fabrikam.com";
+                    this.comboBox4.Text = "Example: computer.fabrikam.com";
                     this.label2.Text = "The computer name field is blank. Enter a remote computer name or IP address.";
                     this.comboBox2.ForeColor = Color.Gray;
                 }
                 else if (this.comboBox2.Text.Length == 0)
                 {
+                    this.comboBox1.Text = String.Empty;
+                    this.comboBox4.Text = String.Empty;
                     this.label2.Text = "The computer name field is blank. Enter a remote computer name or IP address.";
                     this.comboBox2.ForeColor = Color.Gray;
                 }
                 else if (this.comboBox2.Text == this.comboBox1.Text)
+                {
+                    this.label2.Text = string.Empty;
+                    this.comboBox2.ForeColor = Color.Black;
+                }
+                else if (this.comboBox2.Text == this.comboBox4.Text)
                 {
                     this.label2.Text = string.Empty;
                     this.comboBox2.ForeColor = Color.Black;
@@ -170,7 +190,42 @@ using System.Windows.Forms;
                     this.button3.Enabled = false;
                     this.linkLabel1.Text = "Set path to vncviewer.exe";
                 }
-            }  
+            }
+
+            if (this.tabControl1.SelectedTab == this.tabPage5)
+            {
+                this.Text = String.Format(this.AssemblyTitle + " - Get Info");
+                this.AcceptButton = this.button8;
+                this.pictureBox8.Image = Properties.Resources.usr;
+                this.checkBox9.Checked = true;
+                this.checkBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+                this.button8.Enabled = true;
+                this.comboBox4.Text = this.comboBox2.Text = this.comboBox1.Text;
+                //this.comboBox4.Text = this.comboBox1.Text;
+                if (this.comboBox4.Text == "Example: computer.fabrikam.com")
+                {
+                    this.comboBox1.Text = "Example: computer.fabrikam.com";
+                    this.comboBox2.Text = "Example: computer.fabrikam.com";
+                    this.label41.Text = "The computer name field is blank. Enter a remote computer name or IP address.";
+                    this.comboBox4.ForeColor = Color.Gray;
+                }
+                else if (this.comboBox4.Text.Length == 0)
+                {
+                    this.comboBox1.Text = String.Empty;
+                    this.comboBox2.Text = String.Empty;
+                    this.label41.Text = "The computer name field is blank. Enter a remote computer name or IP address.";
+                    this.comboBox4.ForeColor = Color.Gray;
+                }
+                else if (this.comboBox4.Text == this.comboBox1.Text)
+                {
+                    this.label41.Text = string.Empty;
+                    this.comboBox4.ForeColor = Color.Black;
+                }
+                else if (this.comboBox4.Text == this.comboBox2.Text)
+                {
+                    this.label41.Text = string.Empty;
+                    this.comboBox4.ForeColor = Color.Black;
+                }
             
             if (this.tabControl1.SelectedTab == this.tabPage3)
             {
@@ -192,6 +247,9 @@ using System.Windows.Forms;
                 TimeSpan ts = TimeSpan.FromMilliseconds(Environment.TickCount);
                 this.label20.Text = (ts.Days + " days " + ts.Hours + " hrs and " + ts.Minutes + " mins");
             }
+                
+            }  
+            
         }
 
         #endregion
@@ -230,6 +288,7 @@ using System.Windows.Forms;
             }
         }
 
+       
         private void ComboBox2_MouseDown(object sender, MouseEventArgs e)
         {
             if (this.comboBox2.Text == "Example: computer.fabrikam.com")
@@ -259,6 +318,38 @@ using System.Windows.Forms;
                 this.label2.Text = "The computer name field is blank. Enter a remote computer name or IP address.";
                 this.comboBox2.Text = "Example: computer.fabrikam.com";
                 this.comboBox2.ForeColor = Color.Gray;
+            }
+        }
+
+        private void comboBox4_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (this.comboBox4.Text == "Example: computer.fabrikam.com")
+            {
+                this.comboBox4.Text = string.Empty;
+            }
+        }
+
+        private void comboBox4_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (this.comboBox4.Text == "Example: computer.fabrikam.com")
+            {
+                this.comboBox4.Text = string.Empty;
+            }
+        }
+
+        private void comboBox4_TextUpdate(object sender, EventArgs e)
+        {
+            this.comboBox4.ForeColor = Color.Black;
+            this.label41.Text = string.Empty;
+        }
+
+        private void comboBox4_MouseLeave(object sender, EventArgs e)
+        {
+            if (this.comboBox4.Text.Length == 0)
+            {
+                this.label41.Text = "The computer name field is blank. Enter a remote computer name or IP address.";
+                this.comboBox4.Text = "Example: computer.fabrikam.com";
+                this.comboBox4.ForeColor = Color.Gray;
             }
         }
 
@@ -450,11 +541,20 @@ using System.Windows.Forms;
                      }
                  }
              }
+
+             private void LinkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+             {
+                 try
+                 {
+
+                     System.Diagnostics.Process.Start("mailto:wayne.lloyd@gmx.com?subject=" + this.AssemblyProduct + " feedback");
+                 }
              
-        private void LinkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            System.Diagnostics.Process.Start("mailto:wayne.lloyd@gmx.com?subject=" + this.AssemblyProduct + " feedback");
-        }
+         catch (Exception ex)
+            {
+                MessageBox.Show(ex.InnerException.Message);
+            }
+}
 
         #endregion
 
@@ -835,6 +935,59 @@ using System.Windows.Forms;
             }
         }
         #endregion
+
+        private void checkBox9_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.checkBox9.Checked == true)
+            {
+                this.checkBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+                //this.pictureBox8.Image = Properties.Resources.usr;
+                //this.button8.Text = "OK";
+                this.button8.Enabled = true;
+            }
+            else if (this.checkBox9.Checked == false)
+            {
+                this.checkBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            }       
+        }
+
+        private void checkBox10_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.checkBox10.Checked == true)
+            {
+                this.checkBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+                //this.pictureBox8.Image = Properties.Resources.usr;
+                //this.button8.Text = "OK";
+                this.button8.Enabled = true;
+            }
+            else if (this.checkBox10.Checked == false)
+            {
+                this.checkBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            }       
+        }
+
+        private void checkBox11_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.checkBox11.Checked == true)
+            {
+                this.checkBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+                //this.pictureBox8.Image = Properties.Resources.usr;
+                //this.button8.Text = "OK";
+                this.button8.Enabled = true;
+            }
+            else if (this.checkBox11.Checked == false)
+            {
+                this.checkBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            }     
+        }
+
+      
+
+      
+
+        
+
+       
     
         }
     }

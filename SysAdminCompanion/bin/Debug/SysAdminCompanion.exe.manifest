@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
-  <asmv1:assemblyIdentity name="SysAdminCompanion.exe" version="1.3.1.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
-  <description asmv2:iconFile="res\main.ico" asmv2:publisher="Microsoft" asmv2:product="SysAdminCompanion" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <asmv1:assemblyIdentity name="SysAdminCompanion.exe" version="1.3.2.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="res\main.ico" asmv2:publisher="Wayne Lloyd" asmv2:product="SysAdminCompanion" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="SysAdminCompanion" version="1.3.1.0" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="SysAdminCompanion" version="1.3.2.0" language="neutral" processorArchitecture="x86" />
     <commandLine file="SysAdminCompanion.exe" parameters="" />
   </entryPoint>
   <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
@@ -59,14 +59,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SysAdminCompanion.exe" size="917504">
-      <assemblyIdentity name="SysAdminCompanion" version="1.3.1.0" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SysAdminCompanion.exe" size="937472">
+      <assemblyIdentity name="SysAdminCompanion" version="1.3.2.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>EEQEhqUNVIbWQNFUR3lkt5UeTTM=</dsig:DigestValue>
+        <dsig:DigestValue>7OJFJCSaKqQF8cGFwxKVhDMmul0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
