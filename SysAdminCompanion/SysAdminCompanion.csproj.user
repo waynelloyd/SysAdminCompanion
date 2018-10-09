@@ -1,7 +1,7 @@
-﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="15.0">
   <PropertyGroup>
     <ProjectView>ShowAllFiles</ProjectView>
-    <PublishUrlHistory>ftp://upload.ntlworld.com/Applications/Release/SysAdminCompanion/|publish/|Publish/|http://cid-1dd43cc22b052d75.skydrive.live.com/browse.aspx/.Public/MyApplications/SysAdminCompanion/|http://homepage.ntlworld.com/Applications/Release/SysAdminCompanion/</PublishUrlHistory>
+    <PublishUrlHistory>C:\Users\Wayne\source\Workspaces\SysAdminCompanion\|ftp://upload.ntlworld.com/Applications/Release/SysAdminCompanion/|publish/|Publish/|http://cid-1dd43cc22b052d75.skydrive.live.com/browse.aspx/.Public/MyApplications/SysAdminCompanion/</PublishUrlHistory>
     <InstallUrlHistory>http://homepage.ntlworld.com/waynell0yd/Applications/Release/SysAdminCompanion/|http://homepage.ntlworld.com/waynell0yd/|http://hopepage.ntlworld.com/waynell0yd/Applications/Release/SysAdminCompanion/|http://cid-1dd43cc22b052d75.skydrive.live.com/browse.aspx/.Public/MyApplications/SysAdminCompanion/|http://homepage.ntlworld.com/Applications/Release/SysAdminCompanion/</InstallUrlHistory>
     <SupportUrlHistory>mailto:wayne.lloyd%40gmx.com</SupportUrlHistory>
     <UpdateUrlHistory>http://hompage.ntlworld.com/waynell0yd/Applications/Release/SysAdminCompanion/</UpdateUrlHistory>

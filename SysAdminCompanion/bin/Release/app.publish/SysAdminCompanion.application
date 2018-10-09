@@ -1,24 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <assemblyIdentity name="SysAdminCompanion.application" version="1.3.2.0" publicKeyToken="e86639c8dba10c3d" language="neutral" processorArchitecture="x86" xmlns="urn:schemas-microsoft-com:asm.v1" />
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <assemblyIdentity name="SysAdminCompanion.application" version="1.3.3.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <description asmv2:publisher="Wayne Lloyd" asmv2:product="SysAdminCompanion" xmlns="urn:schemas-microsoft-com:asm.v1" />
-  <deployment install="true" disallowUrlActivation="true" mapFileExtensions="true" co.v1:createDesktopShortcut="true">
-    <subscription>
-      <update>
-        <beforeApplicationStartup />
-      </update>
-    </subscription>
-  </deployment>
+  <deployment install="true" disallowUrlActivation="true" mapFileExtensions="true" co.v1:createDesktopShortcut="true" />
+  <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
+    <framework targetVersion="4.6.1" profile="Full" supportedRuntime="4.0.30319" />
+  </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Application Files\SysAdminCompanion_1_3_2_0\SysAdminCompanion.exe.manifest" size="8545">
-      <assemblyIdentity name="SysAdminCompanion.exe" version="1.3.2.0" publicKeyToken="e86639c8dba10c3d" language="neutral" processorArchitecture="x86" type="win32" />
+    <dependentAssembly dependencyType="install" codebase="Application Files\SysAdminCompanion_1_3_3_0\SysAdminCompanion.exe.manifest" size="5239">
+      <assemblyIdentity name="SysAdminCompanion.exe" version="1.3.3.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>U6QgwvvdYOOM4eS2oFJQe407ZmE=</dsig:DigestValue>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>j/2LU+MpbYhpXKdghbQ9QAcBsgDxpXCxxRd5dbP7q9w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-<publisherIdentity name="CN=MacBook\Wayne" issuerKeyHash="8a36f40c7947895fe68fc20f51a565f703cfe011" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ZOEbYvAtLUuKr4YktVt5X05Yz7E=</DigestValue></Reference></SignedInfo><SignatureValue>X4W/mbCYfkbSgIFMiXDkoFqoOluWg71SkQngCGUdsA+AcHTz5aW64qtMICgHHvWeusEKRmff9OUgkGR5IvMcVG5xvPA5TF+m4WXmIMiFofR2jTx51QB00KPV0OqKBnZO0jQ6ptnbH9TPAOetM8QqhD3W7nTFxOcovQAxFLsdtdo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sdC1RVzKDdEOkk38AJGgogM9msVudVbnFA6iJrM8nv/sLKbL+zHp7pAluRgJpOY4db0D8uOavZhnj3cV4oaRprdTOrkwvQ/rxI3oq/mo32OI6OTOce9abIeaMStCF6dqK+cbWCpQSO5qNIzjRJd56ogMBfR2hRGKvIlVjkFuq+M=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b1cf584e5f795bb52486af8a4b2d2df0621be164" Description="" Url=""><as:assemblyIdentity name="SysAdminCompanion.application" version="1.3.2.0" publicKeyToken="e86639c8dba10c3d" language="neutral" processorArchitecture="x86" xmlns="urn:schemas-microsoft-com:asm.v1" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MacBook\Wayne</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>+hV/jxxs+HhV7oHfViujb6wvTnI=</DigestValue></Reference></SignedInfo><SignatureValue>WH2Po+piNoaU0aWDLZfdM/GAyZ64uIma5vtOEjI21TMqGGyyb5W5NL110/mNZ+7LFrO0fQhoiNTvMR2mEfBWGAOZirm4KMISRFlvxh2YpjnKDEEY2jzI4qoycxbQxZHERD39IzIw+K8fwn/a3ymHJLUcc0y1POC0hwJpwngs0PE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sdC1RVzKDdEOkk38AJGgogM9msVudVbnFA6iJrM8nv/sLKbL+zHp7pAluRgJpOY4db0D8uOavZhnj3cV4oaRprdTOrkwvQ/rxI3oq/mo32OI6OTOce9abIeaMStCF6dqK+cbWCpQSO5qNIzjRJd56ogMBfR2hRGKvIlVjkFuq+M=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQRq5GUzHuEZFBug49A717sTANBgkqhkiG9w0BAQUFADAlMSMwIQYDVQQDHhoATQBhAGMAQgBvAG8AawBcAFcAYQB5AG4AZTAeFw0xMDA1MDUyMDQyNThaFw0xMTA1MDYwMjQyNThaMCUxIzAhBgNVBAMeGgBNAGEAYwBCAG8AbwBrAFwAVwBhAHkAbgBlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCx0LVFXMoN0Q6STfwAkaCiAz2axW51VucUDqImszye/+wspsv7MenukCW5GAmk5jh1vQPy45q9mGePdxXihpGmt1M6uTC9D+vEjeir+ajfY4jo5M5x71psh5oxK0IXp2or5xtYKlBI7mo0jONEl3nqiAwF9HaFEYq8iVWOQW6r4wIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAJ0LK1CLqvqrYJFJEwq25vmANufGM7TV5Z6TG+7YXtDeUW08JYBNRaSILG0uld/vFP9tGEwDzwJ+02l59o1eNDxboduIyh5I3s+jafZgyLwkMLyHOZ6dJO0nzQthHqS6G8OYTBImAT1vATFh1d03bWobHBo4zBw0aE4YYjGVS2vi</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+</asmv1:assembly>
