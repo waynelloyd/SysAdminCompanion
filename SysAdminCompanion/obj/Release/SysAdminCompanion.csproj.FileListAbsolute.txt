@@ -26,3 +26,13 @@ C:\Users\Wayne\source\Workspaces\SysAdminCompanion\SysAdminCompanion\obj\Release
 C:\Users\Wayne\source\Workspaces\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.TrustInfo.xml
 C:\Users\Wayne\source\Workspaces\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.exe.manifest
 C:\Users\Wayne\source\Workspaces\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.application
+C:\Users\Wayne\source\Workspaces\SysAdminCompanion\SysAdminCompanion\SysAdminCompanion\bin\Release\SysAdminCompanion.exe.config
+C:\Users\Wayne\source\Workspaces\SysAdminCompanion\SysAdminCompanion\SysAdminCompanion\bin\Release\SysAdminCompanion.exe
+C:\Users\Wayne\source\Workspaces\SysAdminCompanion\SysAdminCompanion\SysAdminCompanion\bin\Release\SysAdminCompanion.pdb
+C:\Users\Wayne\source\Workspaces\SysAdminCompanion\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.csprojAssemblyReference.cache
+C:\Users\Wayne\source\Workspaces\SysAdminCompanion\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.Form1.resources
+C:\Users\Wayne\source\Workspaces\SysAdminCompanion\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.Properties.Resources.resources
+C:\Users\Wayne\source\Workspaces\SysAdminCompanion\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.csproj.GenerateResource.cache
+C:\Users\Wayne\source\Workspaces\SysAdminCompanion\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.csproj.CoreCompileInputs.cache
+C:\Users\Wayne\source\Workspaces\SysAdminCompanion\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.exe
+C:\Users\Wayne\source\Workspaces\SysAdminCompanion\SysAdminCompanion\SysAdminCompanion\obj\Release\SysAdminCompanion.pdb

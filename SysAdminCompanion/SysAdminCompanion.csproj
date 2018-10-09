@@ -16,7 +16,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <ManifestCertificateThumbprint>EE85295C35FD6159280B1EF5D08E18C74A1D22B0</ManifestCertificateThumbprint>
     <ManifestKeyFile>SysAdminCompanion_TemporaryKey.pfx</ManifestKeyFile>
-    <GenerateManifests>true</GenerateManifests>
+    <GenerateManifests>false</GenerateManifests>
     <SignManifests>false</SignManifests>
     <SourceAnalysisOverrideSettingsFile>C:\Users\Wayne\AppData\Roaming\ICSharpCode/SharpDevelop3.0\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
     <SignAssembly>False</SignAssembly>
